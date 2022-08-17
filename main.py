@@ -502,4 +502,4 @@ def display_score(data,hometeam,awayteam):
         return f'Match score: {score}'
 
 # Run app
-app.run_server(debug=True)
+app.run_server(debug=False)
