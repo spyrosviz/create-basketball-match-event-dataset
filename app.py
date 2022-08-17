@@ -49,7 +49,7 @@ dbc.Row([
         dcc.DatePickerSingle(
             id='date',
             initial_visible_month=datetime.today(),
-            date=date(2022, 3, 18)
+            date=datetime.today()
         )
         ]),
     dbc.Col([
