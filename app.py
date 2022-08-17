@@ -501,5 +501,7 @@ def display_score(data,hometeam,awayteam):
         score = f'{home_points}-{away_points}'
         return f'Match score: {score}'
 
-# Run app
-app.run_server(debug=False)
+if __name__ == "__main__":
+
+    # Run app
+    app.run_server(debug=False)
