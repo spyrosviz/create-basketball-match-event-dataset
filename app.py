@@ -8,7 +8,7 @@ import dash_bootstrap_components as dbc
 from dash.dependencies import Input, Output, State
 from dash import dcc,html
 from dash import dash_table
-from datetime import date
+from datetime import date,datetime
 
 # Set scale of basketball court. Default is in feet so we set it equal to 1.
 # For meters set it equal to 0.3048 and for yards set it equal to 1/3
@@ -48,7 +48,7 @@ dbc.Row([
     dbc.Col([
         dcc.DatePickerSingle(
             id='date',
-            initial_visible_month=date(2022, 3, 18),
+            initial_visible_month=datetime.today(),
             date=date(2022, 3, 18)
         )
         ]),
