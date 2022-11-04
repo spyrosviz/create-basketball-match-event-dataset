@@ -21,7 +21,7 @@ idna==3.3
 itsdangerous==2.1.2
 Jinja2==3.1.2
 MarkupSafe==2.1.1
-numpy==1.22.4
+numpy==1.22.3
 pandas==1.4.2
 platformdirs==2.5.2
 plotly==5.8.0
