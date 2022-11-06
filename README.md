@@ -6,6 +6,7 @@ basketball graph while selecting other information related to the shooting event
 (shot type, made or missed, under pressure or not etc..). After selecting information about
 each event you can add it into the table below and at the end of the match you can extract
 the table in an excel format so you can make whatever analysis you want with the data such as
-shot accuracy per zone, percentage of shot types per player etc.
+shot accuracy per zone, percentage of shot types per player etc. The UI could be much much better
+but I put all my effort on just adding the functionality.
 The app can be found in [https://extract-basketball-coordinates-data-app.onrender.com](https://extract-basketball-coordinates-data-app.onrender.com).
 It may take several seconds to load.
